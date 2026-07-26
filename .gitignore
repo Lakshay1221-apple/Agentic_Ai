@@ -1,10 +1,139 @@
-# Python-generated files
+# ===========================
+# Python
+# ===========================
 __pycache__/
-*.py[oc]
-build/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
 dist/
-wheels/
-*.egg-info
+build/
+pip-wheel-metadata/
 
-# Virtual environments
-.venv
+# ===========================
+# Virtual Environments
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# uv
+# ===========================
+.python-version
+
+# ===========================
+# IDEs
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Testing
+# ===========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ===========================
+# Type Checkers
+# ===========================
+.pyre/
+.pytype/
+
+# ===========================
+# Documentation
+# ===========================
+site/
+
+# ===========================
+# Temporary Files
+# ===========================
+tmp/
+temp/
+.cache/
+
+# ===========================
+# Model Files
+# ===========================
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# ===========================
+# Vector Databases
+# ===========================
+chroma/
+chromadb/
+faiss_index/
+*.faiss
+
+# ===========================
+# Data
+# ===========================
+data/
+datasets/
+downloads/
+uploads/
+
+# Ignore large local datasets
+*.csv
+*.parquet
+*.jsonl
+
+# ===========================
+# Secrets
+# ===========================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# ===========================
+# Streamlit / Gradio
+# ===========================
+.streamlit/secrets.toml
+
+# ===========================
+# Misc
+# ===========================
+*.bak
+*.tmp
