@@ -110,6 +110,7 @@ data/
 datasets/
 downloads/
 uploads/
+Data/
 
 # Ignore large local datasets
 *.csv
